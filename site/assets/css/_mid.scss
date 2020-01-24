@@ -1,0 +1,421 @@
+/* hero */
+$hero-height: 55vh;
+
+.hero-section {
+    background: none;
+    background-color: color(primary);
+    height: $hero-height;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-section-text {
+    color: color(background);
+    text-shadow: 1px 1px 2px color(primary);
+    border: 3px color(background) solid;
+    padding: 1.5em 2em;
+
+}
+
+.hero-section-text h1 {
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+
+
+/* body */
+
+.mid {
+    text-align: center;
+}
+
+
+.mid h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 1em 0;
+}
+
+.mid h3 {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    margin-top: 1em;
+}
+
+.mid p {
+    font-size: 1em;
+    padding: 0 1.2em;
+}
+
+.how {
+    margin: 1em 0;
+}
+
+
+/*cards*/
+
+.cards {
+    margin: 2em 0;
+}
+
+.cards a {
+    font-weight: 700;
+    color: color(accent);
+    margin-bottom: 2em;
+    display: flow-root;
+}
+
+.border {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.border2 {
+    border-left: 0px;
+    border-top: 0px;
+}
+
+
+/* learn and plans buttons */
+
+.learn {
+    padding: 2em 0;
+}
+
+.learnmore {
+    border-radius: 25px;
+    border: 2px solid color(accent);
+    padding: 13px 25px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+}
+
+a.learnmore {
+    color: color(accent);
+    font-weight: 700;
+}
+
+.viewplans {
+    border-radius: 25px;
+    border: 2px solid color(call);
+    background: color(call);
+    padding: 13px 25px;
+    margin: 5px 10px 0 0;
+    display: inline-block;
+}
+
+a.viewplans {
+    color: color(background);
+    font-weight: 700;
+}
+
+
+/* Free trial container */
+
+.freetrial {
+    background: #fff;
+    max-width: 100%;
+    text-align: left;
+    margin: 1em 0;
+    height: auto;
+    padding: 2em 1em;
+}
+
+.freetrial p {
+    padding: 0;
+    margin-bottom: 2em;
+}
+
+.freetrial img {
+    width: 95%;
+    margin: 2em 0;
+    float: none;
+}
+
+.freetrial h2 {
+    margin-top: 2em;
+}
+
+
+
+/* Video container */
+
+.video {
+    background: #fff;
+    max-width: 100%;
+    text-align: left;
+    margin: 1em 0;
+    height: auto;
+    padding: 2em 1em;
+}
+
+.video p {
+    padding: 0;
+    margin-bottom: 3em;
+}
+
+.video img {
+    width: 95%;
+    margin: 2em 0;
+    float: none;
+}
+
+.video h2 {
+    margin-top: 3em;
+}
+
+
+
+
+/* upcoming events container */
+
+.upcoming {
+    padding: 3em 1em;
+}
+
+.upcoming h1 {
+    color: color(accent);
+    font-weight: 800;
+    font-size: 2.2em;
+    margin: .5em 0;
+}
+
+.upcoming h2 {
+    color: color(primary);
+}
+
+.upcoming p {
+    margin: 1em 0;
+    font-size: .9em;
+}
+
+.upcoming a {
+    font-weight: 700;
+    color: color(call);
+    margin-bottom: 2em;
+    display: flow-root;
+    font-size: .8em;
+}
+
+.events {
+    border-right: none;
+}
+
+/* faq */
+
+.faq {
+    background: #fff;
+    padding: 1em;
+    max-width: 100%;
+}
+
+.faq a {
+    font-weight: 700;
+    color: color(accent);
+    margin-bottom: 2em;
+    display: flow-root;
+}
+
+
+/* blog */
+
+
+
+.blog {
+    background: color(accent);
+    padding: 1em;
+}
+
+.blog a {
+    font-weight: 700;
+    color: color(background);
+    margin-bottom: 2em;
+    display: flow-root;
+}
+
+.social {
+    background: color(accent);
+}
+
+
+.social a {
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.social h2 {
+    color: color(background);
+    font-size: 1.1em;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: color(background);
+    background-color: color(accent);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid color(background);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.fab {
+    font-size: 1.8em;
+    margin: 0 5px;
+}
+
+.links a {
+    margin-bottom: 1em;
+    display: inline;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .freetrial {
+        background: #f5f4f2;
+        padding: 1em;
+    }
+
+    .freetrial img {
+        margin: 2em 0;
+        float: none;
+    }
+
+    .video {
+        padding: 1em;
+        max-width: auto;
+    }
+
+    .video img {
+        width: 95%;
+        margin: 2em 0;
+        float: none;
+    }
+
+    .video h2 {
+        margin-top: 1em;
+    }
+
+    .faq {
+        background: #f5f4f2;
+        padding: 3em 1em;
+    }
+
+    .blog {
+        background: color(accent);
+        padding: 3em 1em;
+        margin: 0 1em;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 992px) {
+    .hero-section {
+        background: url('/images/hero.png') 50% no-repeat;
+        background-size: cover;
+        height: $hero-height;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .border {
+        border-top: 0px !important;
+        border-left: 0px !important;
+        border-right: 1px solid #f5f4f2 !important;
+        border-bottom: 1px solid #f5f4f2 !important;
+    }
+
+    .border2 {
+        border-left: 1px solid #f5f4f2;
+        border-top: 1px solid #f5f4f2;
+    }
+
+    .freetrial {
+        min-height: 37vh;
+    }
+
+    .freetrial img {
+        width: 65%;
+        float: right;
+    }
+
+    .video img {
+        width: 67%;
+        float: left;
+    }
+
+    .events {
+        border-right: 1px solid #f5f4f2;
+    }
+
+    .blog {
+        margin: 0 2em;
+    }
+
+    input[type=text],
+    select {
+        width: 55%;
+        padding: 12px 20px;
+        margin: 8px 0;
+
+    }
+
+    input[type=submit] {
+        width: 35%;
+        padding: 10px 15px;
+        margin: 8px 0;
+        border-radius: 25px;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .blog {
+        margin: 0 5em;
+    }
+
+    input[type=submit] {
+        width: 30%;
+        padding: 10px 15px;
+        margin: 8px 0;
+    }
+}

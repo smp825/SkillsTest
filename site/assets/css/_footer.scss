@@ -1,0 +1,59 @@
+.footer {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 1.1em;
+    font-weight: 800;
+    margin-top: .5em;
+}
+
+.footer a {
+    font-size: .9em;
+    display: block;
+    margin: 1.7em 0;
+    color: color(accent);
+}
+
+.bottom {
+    margin: 0 0 1em 0;
+}
+
+.terms {
+    font-size: .8em;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.terms a {
+    color: color(accent);
+    margin-left: .5em;
+}
+
+.questions {
+    float: right;
+
+}
+
+.questions a {
+    background: color(accent);
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: color(background);
+}
+
+@media (min-width: 992px) {
+    .footer {
+        text-align: left;
+    }
+
+    .terms {
+        text-align: left;
+    }
+
+    .questions {
+        float: right;
+
+    }
+}
